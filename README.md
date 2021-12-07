@@ -1,0 +1,2 @@
+# newsBlock
+block about news 
