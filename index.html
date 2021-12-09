@@ -29,6 +29,50 @@
     </header>
     <!--Пишем основную часть!-->
     <div class="wrapper">
+        <!--Создаем сайдбары!-->
+        <div class="sidebar-container">
+            <!--Создаем форму для входа-->
+              <div class="sidebar">
+                <form action="#" method="post" id="login">
+                    <h3>Вход</h3>
+                    <input type="text" name="login_field" placeholder="Логин"><br>
+                    <input type="password" name="password_field" placeholder="Пароль"><br>
+                    <input type="submit" class="btn" value="вход">
+                        <div class="lables_reg">
+                            <span><a href="#">забыли пароль?</a></span> | <span><a href="#">регистарция</a></span>
+                        </div>
+                </form>
+              </div>
+              <!--Создаем форму с опросом-->
+              <div class="sidebar">
+                  <form action="post" id="answer">
+                    <h3>Оцените нашу работу!</h3>
+                    <input type="radio" name="answer1">Удовлетворительно,но можете лучше!<br>
+                    <input type="radio" name="answer1">Неплохо,но есть недочеты!<br>
+                    <input type="radio" name="answer1">Отлично,портал - пушка!<br>
+                    <input type="submit" class="btn">
+                  </form>
+              </div>
+
+        </div>
+        <!--Пишем новостной контент страницы!-->
+        <section class="main_content">
+            <!--Пишем первую статью-->
+            <article>
+                <h3>
+                    <a href="#"><b>CD Projekt Red</b> пытается урегулировать вне суда коллективный иск по<br>
+                                 запуску Cyberpunk 2077</a>
+                </h3>
+                <div class="article-meta">
+                    Опубликовал:<a href="#"><b><i>Travis_Macrif</i></b></a>
+                    09.21.2021
+                </div>
+                <img src="https://habrastorage.org/getpro/habr/upload_files/66c/61b/bb5/66c61bbb593201cd58e20dc432f20907.jpg" alt="">
+                <p>Польская компания-разработчик CD Projekt Red вступила в переговоры с истцами коллективного иска <br>
+                   против компании из-за неудачного запуска <b>Cyberpunk 2077</b>> в декабре 2020 года.<br>
+                   Студия рассчитывает добиться мирового соглашения с акционерами.</p>
+            </article>
+        </section>
     </div>
     <!--Пишет footer!-->
     <footer>

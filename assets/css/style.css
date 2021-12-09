@@ -1,6 +1,12 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+    width: 60%;
+    padding: 8px;
+    color:  #5d5d5d;
 }
 
 header {
@@ -65,8 +71,52 @@ li.menu-li a:hover {
 }
     
 .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
     min-height: 100vh;
-    background-color: #fff5ee;;
+    background-color: #fff;   
+    min-width: 900px;
+    margin: 0 50px 0 50px;
+}
+
+.sidebar-container {
+    width: 224px;
+}
+
+.sidebar {
+    width: 222px;
+    height: 150x;
+    padding: 5%;
+    margin: 20px 0 0 20px ;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 8px;
+    background-color: white;
+}
+
+.lables_reg {
+    font-size: 0.9em;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.lables_reg a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar h3 {
+    font-size: 1.1em;
+    padding: 0px;
+}
+
+.main_content {
+    flex-grow: 0.7;
 }
 
 footer {
