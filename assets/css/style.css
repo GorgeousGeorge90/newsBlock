@@ -3,7 +3,7 @@ body {
     padding: 0px;
 }
 
-input[type="text"], input[type="password"], input[type="search"] {
+input[type="text"], input[type="password"] {
     width: 60%;
     padding: 8px;
     color:  #5d5d5d;
@@ -13,7 +13,7 @@ header {
     height: 200px;
     background:url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) bottom no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative;;
 }
 
 .logo {
@@ -74,21 +74,21 @@ li.menu-li a:hover {
     display: flex;
     justify-content: center;
     align-content: flex-start;
+    flex-wrap: wrap;
     min-height: 100vh;
     background-color: #fff;   
     min-width: 900px;
-    margin: 0 50px 0 50px;
+    margin: 200px 20px 70px 20px;
 }
 
 .sidebar-container {
-    width: 224px;
+    width: 200px;
     order: 1;
     align-items: center;
 }
 
 .sidebar {
-    width: 222px;
-    height: 150x;
+    width: 198px;
     padding: 5%;
     margin: 20px 0 0 20px ;
     border: solid 1px black;
@@ -126,5 +126,30 @@ li.menu-li a:hover {
 }
 
 footer {
-    height: 60px;
+    height: 70px;
+    background-color: darkslateblue;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.links a:hover {
+    color: darkblue;
+}
+
+.copyright {
+    text-align: center;
+    color: cornsilk;
+    font-family: fantasy;
+    margin-top:10px;
 }
