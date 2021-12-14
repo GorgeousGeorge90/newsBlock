@@ -183,6 +183,14 @@ footer {
     margin-top:10px;
 }
 
-::slotted(first) {
-    content: New;
+.main_content article:nth-child(even) {
+    background-color: #faf0e6;
+}
+
+.first h3:before {
+    content: "New";
+}
+
+.second h3:before {
+    content: "New";
 }
